@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tech Conference 2024</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Tech Conference 2024</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#speakers">Speakers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#schedule">Schedule</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#location">Location</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#register">Register</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <div class="container">
+    <section id="about" class="mt-5">
+      <h2>About Tech Conference 2024</h2>
+      <p>Discover the latest trends and innovations in technology at Tech Conference 2024. Join us for insightful sessions, networking opportunities, and hands-on workshops.</p>
+    </section>
+    
+    <section id="speakers" class="mt-5">
+      <h2>Featured Speakers</h2>
+      <!-- Speaker Cards using Bootstrap's Card component -->
+      <div class="card-deck">
+        <div class="card">
+          <img src="speaker1.jpg" class="card-img-top" alt="Speaker 1">
+          <div class="card-body">
+            <h5 class="card-title">John Doe</h5>
+            <p class="card-text">CEO, Tech Innovations Inc.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="speaker2.jpg" class="card-img-top" alt="Speaker 2">
+          <div class="card-body">
+            <h5 class="card-title">Jane Smith</h5>
+            <p class="card-text">CTO, Data Solutions Co.</p>
+          </div>
+        </div>
+        <!-- Add more speaker cards as needed -->
+      </div>
+    </section>
+    
+    <section id="schedule" class="mt-5">
+      <h2>Conference Schedule</h2>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Event</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Day 1</td>
+            <td>10:00 AM</td>
+            <td>Welcome Keynote</td>
+          </tr>
+          <tr>
+            <td>Day 1</td>
+            <td>2:00 PM</td>
+            <td>Panel Discussion: Future of AI</td>
+          </tr>
+          <!-- Add more schedule rows -->
+        </tbody>
+      </table>
+    </section>
+    
+    <section id="location" class="mt-5">
+      <h2>Event Location</h2>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.038665293607!2d-0.1281861840020452!3d51.507068916178216!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604e5e9cf0b79%3A0x9c89e7b4547bd433!2sBuckingham%20Palace!5e0!3m2!1sen!2suk!4v1632229630089!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+    
+    <section id="register" class="mt-5">
+      <h2>Register for Tech Conference 2024</h2>
+      <form>
+        <div class="form-group">
+          <label for="fullName">Full Name</label>
+          <input type="text" class="form-control" id="fullName" placeholder="Enter your full name">
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" class="form-control" id="email" placeholder="Enter your email address">
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </section>
+  </div>
+
+  <footer class="bg-dark text-white text-center py-3">
+    <p
